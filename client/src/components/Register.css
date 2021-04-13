@@ -1,0 +1,25 @@
+.register {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  margin-top: 10rem;
+  align-items: center;
+  position: relative;
+  margin-right: 0;
+  text-align: center;
+}
+.re1 {
+  height: 70vh;
+  position: relative;
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.9rem;
+  color: #3e65da;
+  z-index: 4;
+}
+.pepe {
+  align-items: center;
+  width: 80%;
+}

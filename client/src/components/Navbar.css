@@ -78,7 +78,7 @@ nav .icon-burger .line {
     justify-content: space-evenly;
     position: fixed;
 
-    z-index: 12;
+    z-index: 100;
     left: 0;
     right: 0;
     top: 4.5rem;
