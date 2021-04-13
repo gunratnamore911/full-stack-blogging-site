@@ -5,6 +5,7 @@ const Home = () => {
   return (
     <Fragment>
       <Navbar />
+
       <div className="Homy">
         <div className="first">
           <h1>Blog. Share. Improve.</h1>

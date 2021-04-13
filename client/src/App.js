@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import Login from "./components/Login";
 import Register from "./components/Register";
+import Alert from "./components/layout/Alert";
 const App = () => {
   return (
     <Router>
@@ -13,9 +14,11 @@ const App = () => {
           <Home />
         </Route>
         <Route exact path="/login">
+          <Alert />
           <Login />
         </Route>
         <Route exact path="/register">
+          <Alert />
           <Register />
         </Route>
       </Fragment>

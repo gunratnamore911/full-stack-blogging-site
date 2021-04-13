@@ -1,8 +1,7 @@
 import { SET_ALERT } from "../actions/types";
 import { REMOVE_ALERT } from "../actions/types";
 const initialState = [];
-
-export default function (state = initialState, action) {
+function alertReducer(state = initialState, action) {
   switch (action.type) {
     case SET_ALERT:
       return [...state, action.payload];
@@ -14,3 +13,5 @@ export default function (state = initialState, action) {
       return state;
   }
 }
+
+export default alertReducer;
